@@ -1,10 +1,14 @@
 <template>
-    <div class="sidebar-icon group"> 
-        <component :is="selectedIcon" class="h-8 w-8"/>
-        <span class="sidebar-tooltip group-hover:scale-100">
-            {{ selectedToolTip }}
-        </span>      
-    </div>
+
+    <router-link :to="{name:'about'}">
+        <div class="sidebar-icon group"> 
+            <component :is="selectedIcon" class="h-8 w-8"/>
+            <span class="sidebar-tooltip group-hover:scale-100">
+                {{ selectedToolTip }}
+            </span>      
+        </div>
+    </router-link>
+
     
 </template>
 

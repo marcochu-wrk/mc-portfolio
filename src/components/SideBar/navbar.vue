@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import SideBarIcons from '../components/SideBar/SideBarIcons.vue'
+import SideBarIcons from './SideBarIcons.vue'
 
 export default{
     components:{
