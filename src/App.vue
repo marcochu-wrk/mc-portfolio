@@ -1,11 +1,13 @@
 <template>
-  <NavBar/>
-  <router-view/>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/> -->
+  <div class="grid grid-cols-4 md:grid-cols-8 gap-1">
+    <div class="col-span-1 md:col-span-1">
+      <NavBar/>
+    </div>
+  <div class="col-span-7 md:col-span-7 md:ml-1">
+    <router-view/>
+  </div>
+  
+</div>
 </template>
 
 <script>
