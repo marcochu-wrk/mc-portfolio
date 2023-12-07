@@ -22,6 +22,9 @@ module.exports = {
         },
         
       },
+      fontFamily:{
+        custom:['Ubuntu', 'Lato']
+      },
     },
   },
   variants: {

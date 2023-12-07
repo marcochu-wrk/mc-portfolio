@@ -22,11 +22,10 @@ export default{
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Ubuntu;
+  font-weight: normal;
   text-align: center;
-  color: white;
+  color: #98FB98;
 }
 
 body{

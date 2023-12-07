@@ -18,4 +18,39 @@
         text-xs font-bold
         transition-all duration-100 scale-0 origin-left;
     }
+
+    .component-style{
+       @apply bg-gray-800 rounded-lg p-4;
+    }
+
+    .subtext{
+        @apply text-white text-left text-base;
+    }
+
+    .heading-text{
+        @apply text-5xl font-bold;
+    }
+
+    @font-face {
+        font-family: 'Lato';
+        src: url('../assets/fonts/Lato-Medium.ttf') format('truetype');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: 'Rockybilly';
+        src: url('../assets/fonts/Rockybilly.ttf') format('truetype');
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Ubuntu';
+        src: url('../assets/fonts/Ubuntu-L.ttf') format('truetype');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Ubuntu';
+        src: url('../assets/fonts/Ubuntu-R.ttf') format('truetype');
+        font-weight: bold;
+    }
+    
 }
