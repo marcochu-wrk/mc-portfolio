@@ -1,6 +1,6 @@
 <template>
 
-    <router-link :to="{name:'about'}">
+    <router-link :to="{name:pageData.pageName}">
         <div class="sidebar-icon group"> 
             <component :is="selectedIcon" class="h-8 w-8"/>
             <span class="sidebar-tooltip group-hover:scale-100">
@@ -8,7 +8,6 @@
             </span>      
         </div>
     </router-link>
-
     
 </template>
 
@@ -22,7 +21,8 @@ export default{
         tooltip:{
             type:String,
             default:'text'
-        }
+        },
+        pageData: Object
     },
     components:{
         BIconCamera2,
@@ -63,6 +63,12 @@ export default{
                 default:
                     return 'div';
             }
+        }
+    },
+    method:{
+        findRoute(){
+            // get list of pages from db
+            //check icon id
         }
     }
 }

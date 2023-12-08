@@ -1,7 +1,14 @@
 {
-    "homePage":[
+    "home-page":[
         {"title": "summary", "id":1},
         {"title": "github", "id":2},
         {"title": "cv", "id":3}
+    ],
+    "pages":[
+        {"id":1, "pageName":"home", "icon":"home"},
+        {"id":2, "pageName":"projects" , "icon":"code"},
+        {"id":3, "pageName":"timeline" , "icon":"calendar"},
+        {"id":4, "pageName":"photos" , "icon":"camera"},
+        {"id":5, "pageName":"games" , "icon":"game"}
     ]
 }
