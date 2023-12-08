@@ -1,0 +1,1 @@
+To access the navbar please run npx json-server --watch data/db.json
