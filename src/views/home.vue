@@ -1,11 +1,12 @@
 <template>
   <div class="grid grid-cols-2 gap-4 p-8 pt-10">
-    <div class="col-span-3 md:col-span-1">
-      <h1 class="mb-10 heading-text">Welcome to my portfolio!</h1>
-      <p class="text-lg subtext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat,
-        lorem eu ullamcorper vestibulum, lectus ex fermentum turpis, ac luctus
-        velit tellus in purus.
+    <div class="col-span-2 md:col-span-1">
+      <h1 class="mb-2 heading-text text-left text-7xl">Marco Chu</h1>
+      <p class="text-lg subtext ml-1">
+        Front-End Web Developer | Unity Developer | Graphic Designer
+      </p>
+      <p class="subtext mt-8">
+        {{ welcomeMsg }}
       </p>
     </div>
 
@@ -17,7 +18,7 @@
       />
     </div>
 
-    <div class="col-span-2 mt-6">
+    <div class="col-span-2 mt-10">
       <plainbox heading="Summary" />
     </div>
 
@@ -48,7 +49,8 @@ export default {
   },
   data(){
     return{
-      homes:[]
+      homes:[],
+      welcomeMsg:"Welcome to my portfolio! Here I describe my hobbies, experience and general projects I do from time to time."
     }
   },
   mounted(){
