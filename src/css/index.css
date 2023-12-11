@@ -27,6 +27,11 @@
         @apply text-white text-left text-base;
     }
 
+    .subheading{
+        @apply text-green-300 text-center text-xl
+        font-bold;
+    }
+
     .heading-text{
         @apply text-5xl font-bold;
     }

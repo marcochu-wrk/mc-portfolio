@@ -26,7 +26,7 @@
     </div>
 
     <div class="col-span-2 mt-10">
-      <plainbox heading="About Me" :myStats="myStats" />
+      <plainbox heading="About Me" subheading="My Details" :myStats="myStats" />
     </div>
 
     <div class="col-span-2">
@@ -58,11 +58,11 @@ export default {
     return{
       homes:[],
       myStats:{
-        age: 'Age: 24',
-        birthday:'Birthday: 02 Jan 1999',
-        home:'Home Town: Hong Kong',
-        currentHome:'Residing Now: Johannesburg, South Africa',
-        languages:'Languages: English, Cantonese'
+        Age: ' 24',
+        Birthday:' 02 Jan 1999',
+        Home:' Hong Kong',
+        Residing:' Johannesburg, South Africa',
+        Languages:' English, Cantonese'
       }
     }
   },

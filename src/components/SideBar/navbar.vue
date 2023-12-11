@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed top-0 left-0 h-screen w-24 m-0 flex flex-col bg-primary text-secondary shadow-lg">
+    <div class="fixed top-0 left-0 h-screen w-24 m-0 flex flex-col bg-primary text-secondary shadow-lg  border-yellow-400 border-r-4 border-solid">
         <div v-for="page in pages" key="page.id">
             <SideBarIcons :icon="page.icon" :pageData="page" />
         </div>
