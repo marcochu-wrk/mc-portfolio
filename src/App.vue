@@ -1,4 +1,5 @@
 <template>
+  <topbox headingLeft1="marcochuwrk@gmail.com"/>
   <div class="grid grid-cols-4 md:grid-cols-8 gap-1">
     <div class="col-span-1 md:col-span-1">
       <NavBar/>
@@ -12,10 +13,14 @@
 
 <script>
 import NavBar from './components/SideBar/navbar.vue'
-
+import topbox from './components/Info-Containers/topbox.vue'
 export default{
   components:{
-    NavBar
+    NavBar,
+    topbox
+  },
+  data(){
+    
   }
 }
 </script>
