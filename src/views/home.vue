@@ -26,7 +26,7 @@
     </div>
 
     <div class="col-span-2 mt-10">
-      <plainbox heading="Summary" subheading="My Details" :myStats="myStats" :hasXP="true" />
+      <plainbox cardHeading="Hobbies" heading="Overview" subheading="My Details" :myStats="myStats" :hasXP="true" />
     </div>
 
     <div class="col-span-2">
