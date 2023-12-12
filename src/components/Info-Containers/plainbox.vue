@@ -5,6 +5,7 @@
         <div class="component-style subtext md:col-span-4"></div>
             <div class="component-style subtext">
                 <h1 class="subheading mb-4">{{ subheading }}</h1>
+                <div v-if="hasXP" class="mb-2"><xp /></div>
                 <div v-for="(stat,index) in formattedStats" :key="index" class="mb-2 subtext">
                     <span class="text-green-300">{{ stat.headingText }}</span>: <span class="font-normal">{{ stat.remainingText }}</span> <br>
                 </div> 
@@ -13,8 +14,12 @@
 </template>
 
 <script>
+import xp from '../Functions/xpbar.vue'
 export default{
-    props:['heading','subheading','myStats', 'maincontext'],
+    props:['heading','subheading','myStats', 'maincontext','hasXP'],
+    components:{
+        xp
+    },
     computed:{
         formattedStats(){
             return Object.keys(this.myStats).map(key => {
