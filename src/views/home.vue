@@ -30,7 +30,7 @@
     </div>
 
     <div class="col-span-2">
-      <h2 class="text-2xl font-bold mb-2">Latest News</h2>
+      <h2 class="text-2xl font-bold mb-2">Social Media</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div class="component-style subtext p-4">News 1</div>
         <div class="component-style subtext p-4">News 2</div>

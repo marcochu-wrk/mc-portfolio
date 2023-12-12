@@ -6,10 +6,10 @@
             <h1 class="subheading text-left mb-6 ml-4"> {{cardHeading}} </h1>
             <div ref="cardContainer" class="flex space-x-4 ml-4 mr-4 mb-4 overflow-x-auto" @wheel.prevent = "onWheel">
                 <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
-                <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
-                <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
-                <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
-                <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
+                <card class="ml-4 mb-4" title="Movies/Shows" body="Something About Movies"/>
+                <card class="ml-4 mb-4" title="Sports" body="Something about Sports"/>
+                <card class="ml-4 mb-4" title="Manga" body="Something about Manga"/>
+                <card class="ml-4 mb-4" title="Technology" body="Something about Technology"/>
             </div>
         </div>
             <div class="component-style subtext">
