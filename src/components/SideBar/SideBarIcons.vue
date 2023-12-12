@@ -1,7 +1,7 @@
 <template>
 
-    <router-link :to="{name:pageData.pageName}">
-        <div class="sidebar-icon group"> 
+    <router-link :to="{name:pageData.pageName}" exact>
+        <div class="sidebar-icon group" :class="{'active': isPageActive(pageData.pageName)}"> 
             <component :is="selectedIcon" class="h-8 w-8"/>
             <span class="sidebar-tooltip group-hover:scale-100">
                 {{ selectedToolTip }}
@@ -65,10 +65,10 @@ export default{
             }
         }
     },
-    method:{
-        findRoute(){
-            // get list of pages from db
-            //check icon id
+    methods:{
+        isPageActive(link){
+            const currentRoute = this.$route.name
+            return currentRoute ===link
         }
     }
 }

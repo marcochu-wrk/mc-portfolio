@@ -2,7 +2,9 @@
     <h2 class="heading-text text-left mb-2 pb-10">{{ heading }}</h2>
     <div class=" heading-text grid grid-cols-1 md:grid-cols-5 gap-6">
         
-        <div class="component-style subtext md:col-span-4"></div>
+        <div class="component-style subtext md:col-span-4">
+            
+        </div>
             <div class="component-style subtext">
                 <h1 class="subheading mb-4">{{ subheading }}</h1>
                 <div v-if="hasXP" class="mb-2"><xp /></div>

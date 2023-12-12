@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components{
+ 
     .sidebar-icon{
         @apply relative flex items-center justify-center
         h-16 w-16 mx-auto mt-8 mb-2
@@ -19,6 +20,10 @@
         transition-all duration-100 scale-0 origin-left;
     }
 
+    .active{
+        @apply bg-green-600 text-white
+        rounded-3xl;
+    }
     .component-style{
        @apply bg-gray-800 rounded-lg p-4;
     }
