@@ -18,9 +18,6 @@ export default{
   components:{
     NavBar,
     topbox
-  },
-  data(){
-    
   }
 }
 </script>

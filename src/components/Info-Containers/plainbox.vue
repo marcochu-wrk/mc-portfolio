@@ -3,8 +3,8 @@
     <div class=" heading-text grid grid-cols-1 md:grid-cols-5 gap-6">
         
         <div class="component-style subtext md:col-span-4 overflow-hidden relative">
-            <h1 class="subheading text-left mb-6 ml-4"> {{cardHeading}} </h1>
-            <div ref="cardContainer" class="flex space-x-4 ml-4 mr-4 mb-4 overflow-x-auto" @wheel.prevent = "onWheel">
+            <h1 class="subheading text-left mb-2 ml-4"> {{cardHeading}} </h1>
+            <div ref="cardContainer" class="flex space-x-4 ml-4 mr-4 mb-4 pt-4 overflow-x-auto" @wheel.prevent = "onWheel">
                 <card class="ml-4 mb-4" title="Video Games" body="Something about video games"/>
                 <card class="ml-4 mb-4" title="Movies/Shows" body="Something About Movies"/>
                 <card class="ml-4 mb-4" title="Sports" body="Something about Sports"/>
