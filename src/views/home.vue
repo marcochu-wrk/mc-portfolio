@@ -16,15 +16,18 @@
         I am always open to critcism and try my best to make sure that the work I put out are to the best of my capabilities.
       </p>
     </div>
-
-    <div class="col-span-2 md:col-span-1 flex justify-center items-center mt-10">
-      <img
-        src="https://via.placeholder.com/400"
-        alt="Placeholder Image"
-        class="rounded-lg shadow-lg"
-      />
+    <div class="relative">
+      <div class="col-span-2 md:col-span-1 flex justify-center items-center relative z-10">
+        <img
+          src="../assets/Image-1.png"
+          alt="Placeholder Image"
+          class="rounded-full border-4 border-green-500 w-3/5 mt-9 md:mt-9"
+        />
+      </div>
+      <div class="absolute inset-0 rounded-full overflow-hidden ml-24 mr-24 mt-1 mb-1 md:ml-18 md:mr-18">
+        <div class="bg-gradient animate-bg rounded-full h-full w-full"></div>
+      </div>
     </div>
-
     <div class="col-span-2 mt-10">
       <plainbox cardHeading="Hobbies" heading="Overview" subheading="My Details" :myStats="myStats" :hasXP="true" />
     </div>

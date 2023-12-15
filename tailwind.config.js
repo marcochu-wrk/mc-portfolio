@@ -25,6 +25,9 @@ module.exports = {
       fontFamily:{
         custom:['Ubuntu', 'Lato']
       },
+      maxHeight: {
+        '128': '32rem', // for example, extending the max height to 32rem
+      },
     },
   },
   variants: {
