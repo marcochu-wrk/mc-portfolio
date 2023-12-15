@@ -67,7 +67,7 @@ export default {
     }
   },
   mounted(){
-    fetch('http://localhost:3000/homePage')
+    fetch('http://localhost:3000/home-page')
       .then(res => res.json())
       .then(data => this.homes = data)
       .catch(err => console.log(err.message))

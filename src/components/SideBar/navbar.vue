@@ -4,26 +4,41 @@
             <SideBarIcons :icon="page.icon" :pageData="page" />
         </div>
     </div>
+   <div v-if="isErr" @click="clickable">
+        <ErrorModal ErrorMessage="Data has not been fetched from server. Please run npx json-server --watch data/db.json in the console."/>
+    </div>
+    
 </template>
 
 <script>
 import SideBarIcons from './SideBarIcons.vue'
-
+import ErrorModal from '../Functions/errormodal.vue'
 export default{
 
     data(){
         return{
-            pages:[]
+            pages:[],
+            isErr: false
         }
     },
     components:{
-        SideBarIcons
+        SideBarIcons,
+        ErrorModal
+    },
+    methods:{
+        clickable(){
+            this.isErr =  false
+            console.log('Clicked')
+        }
     },
     mounted(){
         fetch('http://localhost:3000/pages')
         .then(res => res.json())
         .then(data => this.pages = data)
-        .catch(err => console.log(err.message))
+        .catch(
+            err => 
+            {console.log(err.message)
+            this.isErr = true})
     }
 }
 </script>
