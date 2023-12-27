@@ -29,7 +29,8 @@
       </div>
     </div>
     <div class="col-span-2 mt-10">
-      <plainbox cardHeading="Hobbies" heading="Overview" subheading="My Details" :myStats="myStats" :hasXP="true" />
+      <!-- My Profile Details -->
+      <plainbox heading="My Profile" mainBodyHeading="Recent Activities" subheading="My Details" :myStats="myStats" :hasXP="true" :numOfCards="5" :activities="myActivities" />
     </div>
 
     <div class="col-span-2">
@@ -41,13 +42,6 @@
       </div>
     </div>
   </div>
-  <!-- <div class="home">
-    <h1>Home Page</h1>
-
-    <div v-for="home in homes" :key="home.id">
-      <p>{{ home.title }}</p>
-    </div>
-  </div> -->
 </template>
 
 <script>
@@ -66,7 +60,29 @@ export default {
         Home:' Hong Kong',
         Residing:' Johannesburg, South Africa',
         Languages:' English, Cantonese'
-      }
+      },
+      myActivities:[
+        {
+          title: "Sports",
+          body:"Something about basketball, paddle, etc"
+        },
+        {
+          title: "Games",
+          body: "Different types of board games and video games I play"
+        },
+        {
+          title:"Reading",
+          body:"Different types of books, visual novels I read and enjoy"
+        },
+        {
+          title:"Traveling",
+          body:"Different places I have been in the past few years"
+        },
+        {
+          title:"Collection",
+          body:"The collectables I have gotten this year"
+        }
+      ]
     }
   },
   mounted(){

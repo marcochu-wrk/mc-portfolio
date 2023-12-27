@@ -4,6 +4,7 @@
             <div class="p-4">
                 <h2 class=" subheading mb-2">{{ title }}</h2>
                 <p class="subtext text-center" >{{ body }}</p>
+                <div>{{ img }}</div>
             </div>
         </div>
     </div>
