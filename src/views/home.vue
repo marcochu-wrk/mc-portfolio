@@ -64,23 +64,23 @@ export default {
       myActivities:[
         {
           title: "Sports",
-          body:"Something about basketball, paddle, etc"
+          body:"The goal for this year was to be more active and I think I managed to achieve that to a degree. I started going to weekly pick-up basketball with some old mates. I also tried paddle, pool and bowling which I am not too great at but the company I have was great which made it really fun."
         },
         {
           title: "Games",
-          body: "Different types of board games and video games I play"
+          body: "This year I have diversified the games I played by a bit. I have started getting into more boardgames and have even started going to a weekly boardgames night with friends as often as I can. In terms of video games, I am still trying to finish Baldurs Gate which has taken up more time than I am willing to admit."
         },
         {
           title:"Reading",
-          body:"Different types of books, visual novels I read and enjoy"
+          body:"Aside from increasing my visual novel collection I started reading The Wheel of Time series and so far have been enjoying the narrative so far. I have also tried my hand at writing but I can most certainly say that I am a novice story writer at best."
         },
         {
           title:"Traveling",
-          body:"Different places I have been in the past few years"
+          body:"Traveling has been a huge highlight this year, I went to Spain for the first time and tested my Spanish for the first time, the locals definitely had a good laugh. Then visited some friends in the UK which is always an amazing experience."
         },
         {
-          title:"Collection",
-          body:"The collectables I have gotten this year"
+          title:"Goals",
+          body:"This year I aimed to get better at creating a solid routine for myself. The first was to go to gym regularly which I am proud to say I have been going for 3 months straight now. I also dedicated myself to improving my programming ability which I hope is reflecting here."
         }
       ]
     }
