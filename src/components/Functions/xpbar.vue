@@ -22,20 +22,20 @@ export default{
             const totalDaysInYear = Math.floor((new Date(this.currentDate.getFullYear() + 1, 0, 1) - startOfYear) / (1000 * 60 * 60 * 24));
 
             return (currentDayOfYear / totalDaysInYear) * 100;
-    },
-    currentDay(){
-        const startOfYear = new Date(this.currentDate.getFullYear(), 0, 1);
-        const currentDayOfYear = Math.floor(
-                (this.currentDate - startOfYear) / (1000 * 60 * 60 * 24)
-            ) + 1;
-        return currentDayOfYear
-    },
-    numDaysInYear(){
-        const startOfYear = new Date(this.currentDate.getFullYear(), 0, 1);
-        const totalDaysInYear = Math.floor((new Date(this.currentDate.getFullYear() + 1, 0, 1) - startOfYear) / (1000 * 60 * 60 * 24));
-        return totalDaysInYear
-    }
-    }
+        },
+        currentDay(){
+            const startOfYear = new Date(this.currentDate.getFullYear(), 0, 1);
+            const currentDayOfYear = Math.floor(
+                    (this.currentDate - startOfYear) / (1000 * 60 * 60 * 24)
+                ) + 1;
+            return currentDayOfYear
+        },
+        numDaysInYear(){
+            const startOfYear = new Date(this.currentDate.getFullYear(), 0, 1);
+            const totalDaysInYear = Math.floor((new Date(this.currentDate.getFullYear() + 1, 0, 1) - startOfYear) / (1000 * 60 * 60 * 24));
+            return totalDaysInYear
+        }
+        }
 }
 </script>
 

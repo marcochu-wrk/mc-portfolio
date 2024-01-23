@@ -17,39 +17,30 @@
       </p>
     </div>
     <div class="relative">
-      <div class="col-span-2 md:col-span-1 flex justify-center items-center relative z-10">
+      <div class="col-span-2 md:col-span-1 flex justify-center items-center relative">
         <img
           src="../assets/Image-1.png"
           alt="Placeholder Image"
           class="rounded-full border-4 border-green-500 w-3/5 mt-9 md:mt-9"
         />
       </div>
-      <div class="absolute inset-0 rounded-full overflow-hidden ml-24 mr-24 mt-1 mb-1 md:ml-18 md:mr-18">
-        <div class="bg-gradient animate-bg rounded-full h-full w-full"></div>
-      </div>
     </div>
     <div class="col-span-2 mt-10">
       <!-- My Profile Details -->
       <plainbox heading="My Profile" mainBodyHeading="Recent Activities" subheading="My Details" :myStats="myStats" :hasXP="true" :numOfCards="5" :activities="myActivities" />
     </div>
-
-    <div class="col-span-2">
-      <h2 class="text-2xl font-bold mb-2">Social Media</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="component-style subtext p-4">News 1</div>
-        <div class="component-style subtext p-4">News 2</div>
-        <div class="component-style subtext p-4">News 3</div>
-      </div>
-    </div>
+      <equalplainbox heading="Social Media"/>
   </div>
 </template>
 
 <script>
 import plainbox from '../components/Info-Containers/plainbox.vue'
+import equalplainbox from '../components/Info-Containers/equalplainbox.vue'
 export default {
   name: 'home',
   components:{
-    plainbox
+    plainbox,
+    equalplainbox
   },
   data(){
     return{
