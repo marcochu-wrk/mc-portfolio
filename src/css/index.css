@@ -33,7 +33,7 @@
     }
 
     .subheading{
-        @apply text-green-300 text-center text-xl
+        @apply text-white text-center text-xl
         font-bold;
     }
 
