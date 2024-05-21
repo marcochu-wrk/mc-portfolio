@@ -7,7 +7,7 @@
     .sidebar-icon{
         @apply relative flex items-center justify-center
         h-16 w-16 mx-auto mt-8 mb-2
-        bg-gray-800 text-green-500 hover:bg-green-600 hover:text-white
+        bg-gray-800 text-purple-400 hover:bg-purple-400 hover:text-white
         rounded-3xl hover:rounded-xl
         transition-all duration-300 ease-linear;
     }
@@ -21,7 +21,7 @@
     }
 
     .active{
-        @apply bg-green-600 text-white
+        @apply bg-purple-400 text-white
         rounded-3xl;
     }
     .component-style{
@@ -29,7 +29,7 @@
     }
 
     .subtext{
-        @apply text-white text-left text-base;
+        @apply text-white text-left text-base font-light;
     }
 
     .subheading{

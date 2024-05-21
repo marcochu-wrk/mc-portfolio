@@ -1,23 +1,28 @@
 <template>
   <div class="grid grid-cols-2 gap-4 pr-8 scroll-pt-1.5">
-    <div class="col-span-2 md:col-span-1">
+    <div class="col-span-2 md:col-span-2">
       <h1 class="mb-2 text-8xl text-center mt-28">Marco Chu</h1>
-      <p class="text-xl text-center text-white border-b-2 border-green-400 pb-3 mt-10">
-        Front-End Vue.js Developer | Unity Developer | UX/UI Designer
+      <p class="text-xl text-center text-black border-b-2 border-purple-400 pb-3 mt-10">
+        Front-End Vue.js Developer <b>|</b> UX/UI Designer
       </p>
     </div>
-    <div>
-      <div class="col-span-2 md:col-span-1 flex justify-center items-center">
+    <div class="col-span-1 md:col-span-1 ">
+      <div class="col-span-2 md:col-span-2 flex justify-left items-center ml-24">
         <img
           src="../assets/Image-1.png"
           alt="Placeholder Image"
-          class="rounded-full border-4 border-green-300 w-3/5 mt-9 md:mt-9"
+          class="rounded-full border-4 border-purple-400 w-1/2 mt-9 md:mt-9"
         />
       </div>
     </div>
+    <div class="col-span-1 md:col-span-1">
+        <div class="flex justify-left items-end h-full">
+            Tech Stack
+        </div>
+    </div>
     <div class="col-span-2 mt-10">
       <!-- My Profile Details -->
-      <plainbox heading="My Profile" mainBodyHeading="Recent Activities" subheading="My Details" :myStats="myStats" :hasXP="true" :numOfCards="5" :activities="myActivities" />
+      <plainbox heading="Who Am I?" mainBodyHeading="Recent Activities" subheading="My Details" :myStats="myStats" :hasXP="true" :numOfCards="5" :activities="myActivities" />
     </div>
       <equalplainbox heading="Social Media"/>
   </div>
@@ -36,7 +41,7 @@ export default {
     return{
       homes:[],
       myStats:{
-        Age: ' 24',
+        Age: ' 25',
         Birthday:' 02 Jan 1999',
         Home:' Hong Kong',
         Residing:' Johannesburg, South Africa',

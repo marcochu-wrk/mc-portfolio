@@ -27,11 +27,10 @@ export default{
   font-family: Ubuntu;
   font-weight: normal;
   text-align: center;
-  color: #98FB98;
 }
 
 body{
-  background: #44464b;
+  background: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -40,7 +39,7 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0);
+  background: rgb(35, 35, 35);
 }
 
 ::-webkit-scrollbar-thumb {

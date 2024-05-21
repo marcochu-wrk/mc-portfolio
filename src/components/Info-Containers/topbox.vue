@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky top-0  flex justify-between items-center bg-gray-900">
+    <div class="sticky top-0  flex justify-between items-center bg-gray-900 h-14 text-white">
         <div>{{ headingRight }}</div>
             <div class="flex items-center mr-6 mt-2 mb-2">
                 <div>{{ headingLeft1 }}</div>
