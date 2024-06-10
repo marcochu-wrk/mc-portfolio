@@ -8,10 +8,21 @@
     </div>
     <div class="col-span-1 md:col-span-1 ">
       <div class="col-span-2 md:col-span-2 flex justify-left items-center ml-24">
-        <div class="row-container pr-24">
-          <div>Github</div>
-          <div>LinkedIn</div>
-          <div>itch</div>
+        <div class="row-container pr-12 mt-6">
+          <div class="w-7 h-7 mb-2">
+            <a href="https://github.com/marcochu-wrk">
+              <img src="../assets//25231.png" alt="Github">
+            </a>
+        </div>
+          <div class="w-7 h-7 mb-2">
+            <a href="https://www.linkedin.com/in/marco-chu-965263217/">
+              <img src="../assets/linkedin-black-icon-logo-ECC426C572-seeklogo.com.png" alt="LinkedIn">
+            </a></div>
+          <div class="w-7 h-7 mb-2">
+            <a href="https://bpigeon.itch.io/">
+              <img src="../assets/itch-io-logo-43B308E6B7-seeklogo.com.png" alt="itch.io">
+            </a>
+          </div>
         </div>
      
         <img
@@ -23,7 +34,7 @@
     </div>
     <div class="col-span-1 md:col-span-1">
         <div class="flex justify-left items-end h-full">
-            Tech Stack
+           My Tech Stack
         </div>
     </div>
     <div class="col-span-2 mt-10">
@@ -56,23 +67,23 @@ export default {
       myActivities:[
         {
           title: "Origins",
-          body:"The goal for this year was to be more active and I think I managed to achieve that to a degree. I started going to weekly pick-up basketball with some old mates. I also tried paddle, pool and bowling which I am not too great at but the company I have was great which made it really fun."
+          body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia neque. Sed vehicula tortor mauris, ac ultrices lectus pretium ut. Pellentesque sagittis nunc sed pharetra lobortis. Integer ornare dolor sit amet dui facilisis, nec interdum ex blandit. Fusce nec augue in ante ullamcorper interdum ac sed libero. Aliquam erat volutpat. Pellentesque egestas leo magna, sit amet luctus ex consectetur et. Nullam suscipit eu magna non consequat."
         },
         {
           title: "Education",
-          body: "This year I have diversified the games I played by a bit. I have started getting into more boardgames and have even started going to a weekly boardgames night with friends as often as I can. In terms of video games, I am still trying to finish Baldurs Gate which has taken up more time than I am willing to admit."
+          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia neque. Sed vehicula tortor mauris, ac ultrices lectus pretium ut. Pellentesque sagittis nunc sed pharetra lobortis. Integer ornare dolor sit amet dui facilisis, nec interdum ex blandit. Fusce nec augue in ante ullamcorper interdum ac sed libero. Aliquam erat volutpat. Pellentesque egestas leo magna, sit amet luctus ex consectetur et. Nullam suscipit eu magna non consequat."
         },
         {
           title:"Goals",
-          body:"Aside from increasing my visual novel collection I started reading The Wheel of Time series and so far have been enjoying the narrative so far. I have also tried my hand at writing but I can most certainly say that I am a novice story writer at best."
+          body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia neque. Sed vehicula tortor mauris, ac ultrices lectus pretium ut. Pellentesque sagittis nunc sed pharetra lobortis. Integer ornare dolor sit amet dui facilisis, nec interdum ex blandit. Fusce nec augue in ante ullamcorper interdum ac sed libero. Aliquam erat volutpat. Pellentesque egestas leo magna, sit amet luctus ex consectetur et. Nullam suscipit eu magna non consequat."
         },
         {
           title:"Interests",
-          body:"Traveling has been a huge highlight this year, I went to Spain for the first time and tested my Spanish for the first time, the locals definitely had a good laugh. Then visited some friends in the UK which is always an amazing experience."
+          body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia neque. Sed vehicula tortor mauris, ac ultrices lectus pretium ut. Pellentesque sagittis nunc sed pharetra lobortis. Integer ornare dolor sit amet dui facilisis, nec interdum ex blandit. Fusce nec augue in ante ullamcorper interdum ac sed libero. Aliquam erat volutpat. Pellentesque egestas leo magna, sit amet luctus ex consectetur et. Nullam suscipit eu magna non consequat."
         },
         {
           title:"Current Stats",
-          body:"This year I aimed to get better at creating a solid routine for myself. The first was to go to gym regularly which I am proud to say I have been going for 3 months straight now. I also dedicated myself to improving my programming ability which I hope is reflecting here."
+          body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia neque. Sed vehicula tortor mauris, ac ultrices lectus pretium ut. Pellentesque sagittis nunc sed pharetra lobortis. Integer ornare dolor sit amet dui facilisis, nec interdum ex blandit. Fusce nec augue in ante ullamcorper interdum ac sed libero. Aliquam erat volutpat. Pellentesque egestas leo magna, sit amet luctus ex consectetur et. Nullam suscipit eu magna non consequat."
         }
       ]
     }
