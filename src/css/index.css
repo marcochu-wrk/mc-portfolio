@@ -45,7 +45,9 @@
         @apply relative w-64 h-80 bg-gray-600 rounded-lg shadow-md overflow-hidden
          transform transition-transform duration-300 hover:scale-105;
     }
-
+    .row-container{
+        @apply flex flex-col gap-3
+    }
     @font-face {
         font-family: 'Lato';
         src: url('../assets/fonts/Lato-Medium.ttf') format('truetype');
